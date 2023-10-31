@@ -1,0 +1,9 @@
+On-chain contracts need to be represented in a canonical form that corresponds to semantics. This requires a relationship to establish the equivalence of different statements. Expressing the same computation in different interaction nets presents challenges, making tasks for systems like OpenAI harder due to the complexity.
+
+Equality checking has a time complexity that requires walking all possible paths in one of two comparisons, making the process less trivial. Pattern matching is advantageous when dealing with multiple equivalent patterns.
+
+A single canonical form for each computation is necessary. If two things are different syntactically, they have different meanings. With interaction nets, dynamic measures are needed to establish equivalence.
+
+A simpler syntax for expressing constraints could be compiled to interaction nets and might have a more canonical normal form. Validators could run the proof search or validation of proofs using interaction nets, even if the actual constraints are not expressed in interaction nets. This addition would add a layer to the research and development process, but demonstrating its effectiveness with a simpler model could be a good step towards a proof of concept.
+
+Publishing interaction nets and canonical forms of constraints to the chain is a possibility. Also, users could publish their own algorithms to aid others in searching and verifying their contracts and transactions, potentially speeding up the verification process. This concept, similar to the publishing of hints in zero-knowledge systems like Starkware, could be beneficial.

@@ -1,0 +1,15 @@
+In yesterday's team meeting, we held an extensive discussion on the upcoming application development project. The primary focus of the project is developing a mobile application that could cater to both iOS and Android users. After several rounds of discussions and brainstorming, we concluded that Flutter should be our go-to choice for this project. There were multiple factors that we considered before arriving at this conclusion.
+
+Flutter, Google’s UI toolkit, provides a way to create applications for mobile, web, and desktop from a single codebase. Given its ability to facilitate cross-platform development, we believe that Flutter can significantly reduce the development time and resources, as we won't have to write separate codebases for iOS and Android. It would provide a consistent and unified development experience across all platforms.
+
+Moreover, we deliberated on the backend services for our mobile application. Some team members suggested using Firebase, Google's mobile and web application development platform. Firebase's seamless integration with Flutter caught our attention. It offers a variety of services such as authentication, real-time database, storage, and analytics, which could prove to be highly beneficial for our project.
+
+However, we also considered other backend services such as AWS Amplify and Azure Mobile Apps. Although they provide similar functionalities, we felt that Firebase would integrate better with our Flutter app given they are both Google products.
+
+In terms of database, Firebase's Firestore, a NoSQL document database, seems a strong candidate for our needs, considering the nature of data we expect to handle.
+
+But the discussion wasn't just about the advantages. We also raised some concerns about Flutter's performance compared to native app development. Given that Flutter is still relatively new, it has a smaller community compared to native development platforms. This might limit the availability of resources and support. We discussed the need to conduct further research to assess these concerns before making a final decision.
+
+Finally, we explored the need for automated testing in our application development process. Automated testing would help us identify and fix issues at an early stage, reducing potential risks in the future. We considered using Flutter’s testing framework for unit, widget, and integration tests.
+
+By the end of the meeting, it was decided that we should move forward with Flutter and Firebase but also research more on the concerns raised.

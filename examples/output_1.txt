@@ -1,0 +1,22 @@
+{
+  "title": "Mobile Application Development using Flutter",
+  "name": "flutter_app_dev",
+  "topics": [
+    {"topic": "Application Development", "relevance": 1.0},
+    {"topic": "Flutter", "relevance": 0.9},
+    {"topic": "Cross-platform Development", "relevance": 0.8},
+    {"topic": "Firebase", "relevance": 0.9},
+    {"topic": "Backend Services", "relevance": 0.6},
+    {"topic": "Authentication", "relevance": 0.5},
+    {"topic": "Database", "relevance": 0.7},
+    {"topic": "Storage", "relevance": 0.4},
+    {"topic": "Analytics", "relevance": 0.4},
+    {"topic": "Performance Concerns", "relevance": 0.7},
+    {"topic": "Automated Testing", "relevance": 0.6},
+    {"topic": "Community Support", "relevance": 0.5}
+  ],
+  "department": "Engineering",
+  "category": "Project Discussion",
+  "important_decisions": "The team decided to focus on Flutter for the mobile application development project due to its cross-platform capabilities. Firebase was considered as the preferred backend service, primarily for its compatibility with Flutter. Firestore was discussed as the potential database solution. There were concerns about Flutter's performance and community support, leading to a decision to conduct further research. The importance of automated testing in the development process was also highlighted.",
+  "summary": "The discussion focused on the upcoming mobile application development project, exploring the use of Flutter for cross-platform development and Firebase as a compatible backend service. Concerns about Flutter's performance and community support were brought up alongside the role of automated testing in the development process."
+}

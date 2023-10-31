@@ -1,0 +1,11 @@
+This concept is still maturing, but I've been mulling over it for quite some time now. One of the reasons that proof of work functions well is due to its binding property. Specifically, the labor invested into one particular block isn't reused towards another block, ultimately bolstering the fairness of the lottery that proof of work generates. 
+
+In my quest for another consensus mechanism or rate-limiting mechanism, beyond proof of stake or proof of work, I concluded that proof of location would not fit the use case I had in mind. However, I came up with an intriguing alternative. 
+
+If you're working with a runtime that can convert the low-level representation of the code, also referred to as bytecode or language, into a normal form, then an objective method to gauge the complexity of any given transaction can be established based on the normal form of the things being executed. This provides a way to measure the weight of some sort, or the effort that's been invested into that transaction. 
+
+With this in mind, the off-chain validators in this scenario would function as nodes that run proof search algorithms. The purpose would essentially be to decipher a transaction that meets the requirements set out in the on-chain program. Admittedly, this converts the validators from state transition validators to creators, as the on-chain system evolves into the primary validation engine. 
+
+The upshot here is that the work isn't tied in the same manner it is within proof of work. Therefore, the binding property is essentially broken. For some time, I considered this an issue and hence didn't progress with the idea. However, I soon realized it wasn't a problem because of the following reason. 
+
+If two different proof search algorithms are more effective at finding proofs for a specific subclass of the on-chain programs, then whenever proof algorithm A produces a satisfactory transaction for contract A, proof algorithm B for the contract B, etc.Algorithm B, the one that seems to be in control, now has a pattern that they can generalize. Essentially, they can try this pattern every time it occurs. This way, they can learn from each other, and this is merely the most basic form of learning from each other. However, with more advanced learning, there are far more possibilities. 
